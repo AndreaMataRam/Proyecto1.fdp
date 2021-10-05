@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A1A35E58270BCC39006B4A6A /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = A1A35E57270BCC39006B4A6A /* main.c */; };
+		A1A35E60270BCD89006B4A6A /* cdb.c in Sources */ = {isa = PBXBuildFile; fileRef = A1A35E5F270BCD89006B4A6A /* cdb.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		A1A35E54270BCC39006B4A6A /* Proyecto1.fdp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Proyecto1.fdp; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1A35E57270BCC39006B4A6A /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		A1A35E5E270BCD89006B4A6A /* cdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cdb.h; sourceTree = "<group>"; };
+		A1A35E5F270BCD89006B4A6A /* cdb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cdb.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				A1A35E57270BCC39006B4A6A /* main.c */,
+				A1A35E5E270BCD89006B4A6A /* cdb.h */,
+				A1A35E5F270BCD89006B4A6A /* cdb.c */,
 			);
 			path = Proyecto1.fdp;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1A35E58270BCC39006B4A6A /* main.c in Sources */,
+				A1A35E60270BCD89006B4A6A /* cdb.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
